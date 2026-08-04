@@ -5,10 +5,10 @@ class Car {
      constructor(com) {
         this.company = com;
     }
-    // constructor(bal, col) {
-    //     this.balance = bal;
-    //     this.color = col;
-    // }
+    constructor(bal, col) {
+        this.balance = bal;
+        this.color = col;
+    }
     Car(bal, col) {
         console.log("Car is created..");
         console.log("Balance is: " + bal);
