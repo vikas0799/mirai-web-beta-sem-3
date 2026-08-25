@@ -23,14 +23,18 @@ const port=3000;
 // const b=89;
 
 app.use(cookieParser());
-
-app.get("/",auth,(req,res)=>{
-      console.log(status);
-    //   res.cookie("userID",145234);
-    console.log(req.cookies)
-    // res.send("home route");
-    res.send(req.cookies);
+app.get("/",(req,res)=>{
+    console.log("hello world..");
+    res.cookie("userID","vikas0799");
 })
+
+// app.get("/",auth,(req,res)=>{
+//       console.log(status);
+//     //   res.cookie("userID",145234);
+//     console.log(req.cookies)
+//     // res.send("home route");
+//     res.send(req.cookies);
+// })
 
 // app.get("/jiopremium",premium,(req,res)=>{
 //     res.send("premium page");
