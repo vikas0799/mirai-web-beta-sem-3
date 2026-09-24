@@ -78,13 +78,14 @@
 
 import React from 'react'
 import Card from './Card';
+import Counter from './Counter';
 // console.log(Card);
 
 
-const saif="chicken";
+// const saif="chicken";
 function App() {
 
-const age=89;
+// const myage=23;
 
 
   return (
@@ -92,12 +93,12 @@ const age=89;
       {/* <h1>my age is {age}</h1> */}
         {/* <Card  myage={age}/> */}
         {/* <Card  mymarks={23}/> */}
+            {/* <Section mycollege={college} myage={myage} a={27} />
             <Section mycollege={college} myage={myage} />
             <Section mycollege={college} myage={myage} />
-            <Section mycollege={college} myage={myage} />
-            <Section mycollege={college} myage={myage} />
+            <Section mycollege={college} myage={myage} /> */}
 
-
+     <Counter/>
 
     </div>
   )

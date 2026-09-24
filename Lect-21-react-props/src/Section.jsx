@@ -7,6 +7,7 @@ function Section(props) {
 
   return (
     <div>
+      <h1>{props.myage}</h1>
         <Button myage={props.myage}/>
     </div>
   )
